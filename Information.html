@@ -1,11 +1,198 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Land of the Pharaohs - Egypt</title>
-</head>
-<body>
-    
-</body>
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body
+    style="
+      color: rgb(248, 244, 244);
+      background-image: url('/images/Background3.jpg');
+    "
+  >
+    <header>
+      <nav style="color: rgb(248, 244, 244)">
+        <ul class="main-nav">
+          <li><a href="/">Home</a></li>
+          <li><a href="/Attractions.html">Attractions</a></li>
+          <li><a href="/about.html">About</a></li>
+          <li><a href="/contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <h1 style="text-decoration: underline">Information about You</h1>
+      <p style="color: rgb(229, 215, 215)">
+        We would like a few information about you before we can arrange a tour
+        package tailored to your needs
+      </p>
+      <form action="https://httpbin.org/post" method="post">
+        <fieldset>
+          <legend>What Type of Tour you are looking for</legend>
+
+          <select name="Backpacker" id="Backpacker">
+            <option value="Honeymooner">Honeymooner</option>
+            <option value="Family">Family</option>
+            <option value="Friends">Friends</option>
+            <option value="Large Group with Kids">Mixed Group with Kids</option>
+            <option value="Large Group without Kids">
+              Large Group without Kids
+            </option>
+            <option value="Senior">Senior</option>
+            <option value="Senior Group">Senior Group</option>
+          </select>
+        </fieldset>
+        <br />
+
+        <fieldset>
+          <legend>How long do you plan to stay ?</legend>
+          <div>
+            <label for="4 Days, 3 Nights">4 Days, 3 Nights:</label>
+            <input
+              type="checkbox"
+              name="4 Days, 3 Nights"
+              id="4 Days, 3 Nights"
+            />
+          </div>
+
+          <div>
+            <label for="6 Days, 5 Nights">6 Days, 5 Nights:</label>
+            <input
+              type="checkbox"
+              name="6 Days, 5 Nights"
+              id="6 Days, 5 Nights"
+              style="word-wrap: break-word"
+            />
+          </div>
+
+          <div>
+            <label for="8 Days, 7 Nights">8 Days, 7 Nights: </label>
+            <input
+              type="checkbox"
+              name="8 Days, 7 Nights"
+              id="8 Days, 7 Nights"
+              style="word-wrap: break-word"
+            />
+          </div>
+
+          <div>
+            <label for="10 Days, 9 Nights">10 Days, 9 Nights: </label>
+            <input
+              type="checkbox"
+              name="10 Days, 9 Nights"
+              id="10 Days, 9 Nights"
+              style="word-wrap: break-word"
+            />
+          </div>
+
+          <div>
+            <label for="More than 10 Days">More than 10 Days: </label>
+            <input
+              type="checkbox"
+              name="More than 10 Days"
+              id="More than 10 Days"
+              style="word-wrap: break-word"
+            />
+          </div>
+        </fieldset>
+        <br />
+        <fieldset>
+          <legend>Do you Have Pets ?</legend>
+          <div>
+            <label for="Yes">Yes:</label>
+            <input type="checkbox" name="Yes" id="Yes" />
+          </div>
+
+          <div>
+            <label for="No">No:</label>
+            <input
+              type="checkbox"
+              name="No"
+              id="No"
+              style="word-wrap: break-word"
+            />
+          </div>
+          <div>
+            <label for="If yes Please tell us what type and other information"
+              >If yes Please tell us what type and other information:</label
+            >
+            <input type="text" name="food" id="Others" value="Others" />
+          </div>
+        </fieldset>
+        <br />
+
+        <fieldset>
+          <legend>What are your Food preference ?</legend>
+
+          <div>
+            <label for="Vegetarian">Vegetarian:</label>
+            <input
+              type="radio"
+              name="food"
+              id="Vegetarian"
+              value="Vegetarian"
+            />
+          </div>
+
+          <div>
+            <label for="Non-Vegetarian">Non-Vegetarian:</label>
+            <input
+              type="radio"
+              name="food"
+              id="Non-Vegetarian"
+              value="Non-Vegetarian"
+            />
+          </div>
+
+          <div>
+            <label for="Pescatarian">Pescatarian:</label>
+            <input
+              type="radio"
+              name="food"
+              id="Pescatarian"
+              value="Pescatarian"
+            />
+          </div>
+
+          <div>
+            <label for="Others">Others:</label>
+            <input type="text" name="food" id="Others" value="Others" />
+          </div>
+
+          <div>
+            <label for="Any Allergies">Any Allergies:</label>
+            <input
+              type="text"
+              name="food"
+              id="Any Allergies"
+              value="Any Allergies"
+            />
+          </div>
+        </fieldset>
+        <br />
+
+        <button type="submit" style="background-color: brown">Submit</button>
+      </form>
+    </main>
+  </body>
+  <br />
+  <footer
+    style="
+      background-color: rgb(236, 230, 230);
+      border-radius: 5px;
+      padding: 5px;
+    "
+  >
+    <a href="#">Back to the Top</a>
+    <address style="color: rgb(87, 14, 14)">
+      For more details write to
+      <a href="mailto:shrinidhikrishnan89@gmail.com">Shrinidhi Krishnan</a
+      >.<br />
+      Call us at:
+      <a href="tel:4375597872">4375597872</a>.<br />
+      Visit us at: 123, Cairo street, Cairo, Egypt 12345.<br />
+    </address>
+  </footer>
 </html>
