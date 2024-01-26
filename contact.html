@@ -6,12 +6,7 @@
     <title>Land of the Pharaohs - Egypt</title>
     <link rel="stylesheet" href="index.css" />
   </head>
-  <body
-    style="
-      background-color: rgb(248, 244, 244);
-      background-image: url('/images/Background3.jpg');
-    "
-  >
+  <body style="background-image: url('images/Background4.jpg')">
     <header>
       <nav style="color: rgb(248, 244, 244)">
         <ul class="main-nav">
@@ -22,11 +17,16 @@
         </ul>
       </nav>
     </header>
+    <br />
     <main>
-      <h1 style="color: rgb(248, 244, 244)">Contact Us</h1>
+      <h1 style="color: rgb(248, 244, 244); text-decoration: underline">
+        Contact Us
+      </h1>
       <form action="https://httpbin.org/post" method="post">
         <fieldset>
-          <legend style="color: brown; font-weight: bold">Personal Info</legend>
+          <legend style="color: rgb(248, 244, 244); font-weight: bold">
+            Personal Info
+          </legend>
           <label
             for="firstName"
             style="color: rgb(208, 195, 49); padding-right: 20px"
@@ -41,7 +41,9 @@
           />
           <br />
           <div style="padding-top: 20px">
-            <label for="LastName" style="color: rgb(248, 244, 244)"
+            <label
+              for="LastName"
+              style="color: rgb(208, 195, 49); padding-right: 20px"
               >Last Name*:</label
             >
             <input
@@ -53,7 +55,9 @@
             />
           </div>
           <div style="padding-top: 20px">
-            <label for="password" style="color: rgb(248, 244, 244)"
+            <label
+              for="password"
+              style="color: rgb(208, 195, 49); padding-right: 27px"
               >Password*:</label
             >
             <input
@@ -66,7 +70,9 @@
           </div>
 
           <div style="padding-top: 20px">
-            <label for="phone" style="color: rgb(248, 244, 244)"
+            <label
+              for="phone"
+              style="color: rgb(208, 195, 49); padding-right: 1px"
               >Phone Number:</label
             >
             <input
@@ -80,37 +86,45 @@
         </fieldset>
         <br />
         <fieldset>
-          <legend style="color: brown">Text Area</legend>
+          <legend style="color: rgb(236, 230, 230); font-weight: bold">
+            Please write your query below
+          </legend>
           <textarea
             name="message"
             id="message"
             cols="100"
             rows="5"
-            placeholder="Please enter a message"
+            placeholder=""
             required
           ></textarea>
         </fieldset>
         <br />
-        <button type="submit" style="background-color: brown">Submit</button>
+        <button type="submit" style="background-color: rgb(208, 195, 49)">
+          Submit
+        </button>
       </form>
     </main>
   </body>
   <br />
-  <footer
-    style="
-      background-color: rgb(236, 230, 230);
-      border-radius: 5px;
-      padding: 5px;
-    "
-  >
-    <a href="#">Back to the Top</a>
-    <address style="color: rgb(87, 14, 14)">
-      For more details write to
-      <a href="mailto:shrinidhikrishnan89@gmail.com">Shrinidhi Krishnan</a
-      >.<br />
-      Call us at:
-      <a href="tel:4375597872">4375597872</a>.<br />
-      Visit us at: 123, Cairo street, Cairo, Egypt 12345.<br />
+  <footer>
+    <div style="padding-left: 580px">
+      <a href="#" style="color: aliceblue">Back to the Top</a>
+    </div>
+    <address style="color: rgb(234, 229, 229)">
+      <br />
+      <div style="padding-left: 450px">
+        For more details write to:
+        <a href="mailto:shrinidhikrishnan89@gmail.com"
+          >shrinidhikrishnan89@gmail.com</a
+        >
+      </div>
+      <div style="padding-left: 555px">
+        Call us at:
+        <a href="tel:4375597872">4375597872</a>
+      </div>
+      <div style="padding-left: 480px">
+        Visit us at: 123, Cairo street, Cairo, Egypt 12345
+      </div>
     </address>
   </footer>
 </html>

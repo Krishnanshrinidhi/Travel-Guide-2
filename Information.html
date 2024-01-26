@@ -9,28 +9,30 @@
   <body
     style="
       color: rgb(248, 244, 244);
-      background-image: url('/images/Background3.jpg');
+      background-image: url('/images/Background4.jpg');
     "
   >
     <header>
       <nav style="color: rgb(248, 244, 244)">
         <ul class="main-nav">
           <li><a href="/">Home</a></li>
-          <li><a href="/Attractions.html">Attractions</a></li>
           <li><a href="/about.html">About</a></li>
+          <li><a href="/Attractions.html">Attractions</a></li>
           <li><a href="/contact.html">Contact</a></li>
         </ul>
       </nav>
     </header>
     <main>
       <h1 style="text-decoration: underline">Information about You</h1>
-      <p style="color: rgb(229, 215, 215)">
+      <p style="color: rgb(208, 195, 49)">
         We would like a few information about you before we can arrange a tour
         package tailored to your needs
       </p>
       <form action="https://httpbin.org/post" method="post">
         <fieldset>
-          <legend>What Type of Tour you are looking for</legend>
+          <legend style="color: rgb(248, 244, 244)">
+            What Type of Tour you are looking for
+          </legend>
 
           <select name="Backpacker" id="Backpacker">
             <option value="Honeymooner">Honeymooner</option>
@@ -47,9 +49,15 @@
         <br />
 
         <fieldset>
-          <legend>How long do you plan to stay ?</legend>
+          <legend style="color: rgb(248, 244, 244)">
+            How long do you plan to stay ?
+          </legend>
           <div>
-            <label for="4 Days, 3 Nights">4 Days, 3 Nights:</label>
+            <label
+              for="4 Days, 3 Nights"
+              style="color: rgb(208, 195, 49); padding-right: 14px"
+              >4 Days, 3 Nights:</label
+            >
             <input
               type="checkbox"
               name="4 Days, 3 Nights"
@@ -58,7 +66,11 @@
           </div>
 
           <div>
-            <label for="6 Days, 5 Nights">6 Days, 5 Nights:</label>
+            <label
+              for="6 Days, 5 Nights"
+              style="color: rgb(208, 195, 49); padding-right: 14px"
+              >6 Days, 5 Nights:</label
+            >
             <input
               type="checkbox"
               name="6 Days, 5 Nights"
@@ -68,7 +80,11 @@
           </div>
 
           <div>
-            <label for="8 Days, 7 Nights">8 Days, 7 Nights: </label>
+            <label
+              for="8 Days, 7 Nights"
+              style="color: rgb(208, 195, 49); padding-right: 14px"
+              >8 Days, 7 Nights:
+            </label>
             <input
               type="checkbox"
               name="8 Days, 7 Nights"
@@ -78,7 +94,11 @@
           </div>
 
           <div>
-            <label for="10 Days, 9 Nights">10 Days, 9 Nights: </label>
+            <label
+              for="10 Days, 9 Nights"
+              style="color: rgb(208, 195, 49); padding-right: 7px"
+              >10 Days, 9 Nights:
+            </label>
             <input
               type="checkbox"
               name="10 Days, 9 Nights"
@@ -88,7 +108,9 @@
           </div>
 
           <div>
-            <label for="More than 10 Days">More than 10 Days: </label>
+            <label for="More than 10 Days" style="color: rgb(208, 195, 49)"
+              >More than 10 Days:
+            </label>
             <input
               type="checkbox"
               name="More than 10 Days"
@@ -99,14 +121,16 @@
         </fieldset>
         <br />
         <fieldset>
-          <legend>Do you Have Pets ?</legend>
+          <legend style="color: rgb(248, 244, 244)">Do you Have Pets ?</legend>
           <div>
-            <label for="Yes">Yes:</label>
+            <label for="Yes" style="color: rgb(208, 195, 49)">Yes:</label>
             <input type="checkbox" name="Yes" id="Yes" />
           </div>
 
           <div>
-            <label for="No">No:</label>
+            <label for="No" style="padding-right: 3px; color: rgb(208, 195, 49)"
+              >No:</label
+            >
             <input
               type="checkbox"
               name="No"
@@ -115,19 +139,27 @@
             />
           </div>
           <div>
-            <label for="If yes Please tell us what type and other information"
+            <label
+              for="If yes Please tell us what type and other information"
+              style="color: rgb(208, 195, 49)"
               >If yes Please tell us what type and other information:</label
             >
-            <input type="text" name="food" id="Others" value="Others" />
+            <input type="text" name="food" id="Other Information" value="" />
           </div>
         </fieldset>
         <br />
 
         <fieldset>
-          <legend>What are your Food preference ?</legend>
+          <legend style="color: rgb(248, 244, 244)">
+            What are your Food preference ?
+          </legend>
 
           <div>
-            <label for="Vegetarian">Vegetarian:</label>
+            <label
+              for="Vegetarian"
+              style="padding-right: 33px; color: rgb(208, 195, 49)"
+              >Vegetarian:</label
+            >
             <input
               type="radio"
               name="food"
@@ -137,7 +169,9 @@
           </div>
 
           <div>
-            <label for="Non-Vegetarian">Non-Vegetarian:</label>
+            <label for="Non-Vegetarian" style="color: rgb(208, 195, 49)"
+              >Non-Vegetarian:</label
+            >
             <input
               type="radio"
               name="food"
@@ -147,7 +181,11 @@
           </div>
 
           <div>
-            <label for="Pescatarian">Pescatarian:</label>
+            <label
+              for="Pescatarian"
+              style="padding-right: 28px; color: rgb(208, 195, 49)"
+              >Pescatarian:</label
+            >
             <input
               type="radio"
               name="food"
@@ -157,12 +195,20 @@
           </div>
 
           <div>
-            <label for="Others">Others:</label>
-            <input type="text" name="food" id="Others" value="Others" />
+            <label
+              for="Others"
+              style="padding-right: 62px; color: rgb(208, 195, 49)"
+              >Others:</label
+            >
+            <input type="text" name="food" id="Others" value="" />
           </div>
 
           <div>
-            <label for="Any Allergies">Any Allergies:</label>
+            <label
+              for="Any Allergies"
+              style="padding-right: 16px; color: rgb(208, 195, 49)"
+              >Any Allergies:</label
+            >
             <input
               type="text"
               name="food"
@@ -173,26 +219,33 @@
         </fieldset>
         <br />
 
-        <button type="submit" style="background-color: brown">Submit</button>
+        <button type="submit" style="background-color: rgb(208, 195, 49)">
+          Submit
+        </button>
       </form>
     </main>
   </body>
   <br />
-  <footer
-    style="
-      background-color: rgb(236, 230, 230);
-      border-radius: 5px;
-      padding: 5px;
-    "
-  >
-    <a href="#">Back to the Top</a>
-    <address style="color: rgb(87, 14, 14)">
-      For more details write to
-      <a href="mailto:shrinidhikrishnan89@gmail.com">Shrinidhi Krishnan</a
-      >.<br />
-      Call us at:
-      <a href="tel:4375597872">4375597872</a>.<br />
-      Visit us at: 123, Cairo street, Cairo, Egypt 12345.<br />
+  <br />
+  <footer>
+    <div style="padding-left: 580px">
+      <a href="#" style="color: aliceblue">Back to the Top</a>
+    </div>
+    <address style="color: rgb(234, 229, 229)">
+      <br />
+      <div style="padding-left: 450px">
+        For more details write to:
+        <a href="mailto:shrinidhikrishnan89@gmail.com"
+          >shrinidhikrishnan89@gmail.com</a
+        >
+      </div>
+      <div style="padding-left: 555px">
+        Call us at:
+        <a href="tel:4375597872">4375597872</a>
+      </div>
+      <div style="padding-left: 480px">
+        Visit us at: 123, Cairo street, Cairo, Egypt 12345
+      </div>
     </address>
   </footer>
 </html>

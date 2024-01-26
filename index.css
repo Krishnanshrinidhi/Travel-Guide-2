@@ -1,7 +1,7 @@
 .main-nav {
     list-style-type: none;
     margin: 0;
-    padding: 0;
+    padding-left: 500px;
     display: flex;
   }
   
@@ -10,11 +10,14 @@
   }
   
   .main-nav li a {
-    text-decoration: none;
+    text-decoration: underline;
   }
   
+  .main-nav li a {
+    color: rgb(208, 195, 49);
+  }
   .main-nav li a:hover {
-    color: yellow;
+    color: rgb(12, 171, 83);
   }
   
   #unique-table th,
